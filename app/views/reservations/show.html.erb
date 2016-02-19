@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Pick up date:</strong>
+  <%= @reservation.pick_up_date %>
+</p>
+
+<p>
+  <strong>Scheduled return date:</strong>
+  <%= @reservation.scheduled_return_date %>
+</p>
+
+<p>
+  <strong>Actual return date:</strong>
+  <%= @reservation.actual_return_date %>
+</p>
+
+<p>
+  <strong>Odometer reading:</strong>
+  <%= @reservation.odometer_reading %>
+</p>
+
+<p>
+  <strong>Fuel level:</strong>
+  <%= @reservation.fuel_level %>
+</p>
+
+<p>
+  <strong>Fine:</strong>
+  <%= @reservation.fine %>
+</p>
+
+<p>
+  <strong>Vehicle:</strong>
+  <%= @reservation.vehicle_id %>
+</p>
+
+<p>
+  <strong>Customer:</strong>
+  <%= @reservation.customer_id %>
+</p>
+
+<%= link_to 'Edit', edit_reservation_path(@reservation) %> |
+<%= link_to 'Back', reservations_path %>

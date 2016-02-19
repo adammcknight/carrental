@@ -1,0 +1,41 @@
+
+
+<p>
+  <strong>Vehicle type:</strong>
+  <%= @vehicle.vehicle_type %>
+</p>
+
+<p>
+  <strong>Registration:</strong>
+  <%= @vehicle.registration %>
+</p>
+
+<p>
+  <strong>Fuel type:</strong>
+  <%= @vehicle.fuel_type %>
+</p>
+
+<p>
+  <strong>Transmission:</strong>
+  <%= @vehicle.transmission %>
+</p>
+
+<p>
+  <strong>Passengers:</strong>
+  <%= @vehicle.passengers %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @vehicle.model %>
+</p>
+
+<p>
+  <strong>Daily price:</strong>
+  <%= @vehicle.daily_price %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_vehicle_path(@vehicle) %> |
+<%= link_to 'Back', vehicles_path %>

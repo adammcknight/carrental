@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  vehicle_type: MyString
+  registration: MyString
+  fuel_type: MyString
+  transmission: MyString
+  passengers: 1
+  model: MyString
+  daily_price: 9.99
+  vehicle_id: 1
+
+two:
+  vehicle_type: MyString
+  registration: MyString
+  fuel_type: MyString
+  transmission: MyString
+  passengers: 1
+  model: MyString
+  daily_price: 9.99
+  vehicle_id: 1

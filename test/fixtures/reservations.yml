@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pick_up_date: 2016-02-08
+  scheduled_return_date: 2016-02-08
+  actual_return_date: 2016-02-08
+  odometer_reading: 1
+  fuel_level: 9.99
+  fine: 9.99
+  vehicle_id: 1
+  customer_id: 1
+
+two:
+  pick_up_date: 2016-02-08
+  scheduled_return_date: 2016-02-08
+  actual_return_date: 2016-02-08
+  odometer_reading: 1
+  fuel_level: 9.99
+  fine: 9.99
+  vehicle_id: 1
+  customer_id: 1
