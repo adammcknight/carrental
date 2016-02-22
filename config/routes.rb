@@ -1,15 +1,15 @@
 Rails.application.routes.draw do
-  get 'sessions/new'
-
-  get 'sessions/create'
-
-  get 'sessions/destroy'
+  resources :comments
 
   resources :users
   resources :reservations
   resources :vehicles
+  
+  resources :vehicles do
+	resources :comments
+	end
 
-  get '/home' => 'pages#home'
+  root 'pages#home'
   
   controller :sessions do
 	get 'login' => :new
@@ -22,7 +22,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+   #root 'pages#home'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

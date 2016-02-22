@@ -10,34 +10,36 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require_self
+ *= require_tree .
  */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ 
  
  h1{
-	 font-size:1.5em;
 	 line-height:1;
 	 margin-bottom:1em;
-	 color:red;
+	 color:blue;
  }
  
  h2{
-	 font-size:1.5em;
+	 font-size:2.5em;
 	 line-height:1;
 	 margin-bottom:1em;
-	 color:black;
+	 color:blue;
  }
  
  h3{
 	 font-size:1.5em;
 	 line-height:1;
 	 margin-bottom:1em;
-	 color:yellow;
+	 color:blue;
  }
 
  #banner {
   background: #01A9DB;
-  padding: 10px;
+  padding: 40px;
   border-bottom: 2px solid;
   font: small-caps 40px/40px "Arial";
   color: #0101DF;
@@ -108,7 +110,7 @@
 
 #nav {
   background-color: #01A9DB;
-  padding: 0 0.7em;
+  padding: 0 1.5em;
   white-space: nowrap;
 }
 
@@ -126,13 +128,14 @@
 #nav ul li a {
   padding: 0 5px;
   font-weight: bold;
-  color: #2EFEF7;
+  color: #000000;
 }
 
 #nav ul li a:visited {
-  color: #09c;
+  color: #F2F2F2;
 }
 
 #nav ul li a:hover {
   text-decoration: underline;
+  color: #58FAF4;
   }
